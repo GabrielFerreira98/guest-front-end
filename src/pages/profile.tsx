@@ -15,9 +15,9 @@ export function Profile(){
             </div>
         </div>
         <div className='h-[85vh] bg-white flex flex-col items-center justify-center'>
-            
+
             <div className="w-full max-w-2xl  bg-white flex flex-col p-8 items-center rounded-lg h-5/6 drop-shadow-2xl justify-center">
-            
+
             <PerfilOptions children='Histórico de Pedidos'></PerfilOptions>
             <PerfilOptions children='Formas de Pagamento'></PerfilOptions>
             <PerfilOptions children='Notificações'></PerfilOptions>
@@ -25,8 +25,7 @@ export function Profile(){
             <PerfilOptions children='Configurações'></PerfilOptions>
             <PerfilOptions children='Ajuda & Suporte'></PerfilOptions>
             <PerfilOptions children='Perguntas Frequentes'></PerfilOptions>
-            
-            
+
             </div>
 
             <h3 className='mt-8 text-md text-orange-guest hover:text-hover-orange-guest cursor-pointer hover:underline transition duration-200'>Desconectar</h3>
